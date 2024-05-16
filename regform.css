@@ -1,0 +1,179 @@
+*,body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lumanosimo', cursive;
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+
+#reg{
+  
+    background: rgb(232, 237, 237);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+
+}
+.regIntro{
+    text-align: center;
+    /* margin-bottom: 2em; */
+}
+.regIntro p{
+    font-size: 20px;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+
+form{
+border: 2px solid rgb(42, 187, 177);
+height: fit-content;
+width: 30%;
+display: flex;
+flex-direction: column;
+padding: 2%;
+border-radius: 1em;
+
+}
+label{
+
+}
+input{
+    width: 100%;
+    height: 2.5em;
+    border-radius: 5px;
+}
+
+.attendees{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    gap: 3em;
+    
+}
+.firstattendee .repeatattendee{
+    display: flex;
+
+}
+.attendees label{
+    width: 50%;
+}
+.attendees input{
+    height: 1.5em;
+}
+button{
+    border: 5px solid rgb(42, 187, 177);
+    color:#FFF ;
+    background:rgb(5, 65, 61) ;
+    
+    padding: 3px 5px;
+    border-radius: 15px;
+    
+    font-size: 20px;
+    width: 50%;
+    align-self: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+button:hover{
+    border: 5px solid rgb(5, 65, 61);
+    color:rgb(5, 65, 61);
+    background: rgb(42, 187, 177);
+    border: 5px solid rgb(5, 65, 61);
+    font-size: 21px;
+}
+
+
+@media only screen and (max-width:930px){
+    #reg{
+        /* border: 2px solid red; */
+        padding: 1.5em 0;
+        background: rgb(232, 237, 237);
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* text-align: center; */
+    }
+    .regIntro{
+        text-align: center;
+        margin-bottom: 2em;
+        width: 90%;
+    }
+    
+    .regIntro h2{
+        font-size: 20px;
+    }
+    .regIntro p{
+        margin-top: .5em;
+        font-size: 18px;
+    }
+    
+    
+    form{
+    border: 2px solid rgb(42, 187, 177);
+    height: fit-content;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    border-radius: 1em;
+    
+    }
+    label{
+    
+    }
+    input{
+        width: 100%;
+        height: 2.5em;
+        border-radius: 5px;
+    }
+    
+    .attendees{
+        display: flex;
+        width: 100%;
+        height: fit-content;
+        gap: 3em;
+        
+    }
+    .firstattendee .repeatattendee{
+        display: flex;
+    
+    }
+    .attendees label{
+        width: 50%;
+    }
+    .attendees input{
+        height: 1.5em;
+    }
+    button{
+        border: 5px solid rgb(42, 187, 177);
+        color:#FFF ;
+        background: rgb(5, 65, 61) ;
+        padding: 3px 5px;
+        border-radius: 15px;
+        font-size: 20px;
+        width: 50%;
+        align-self: center;
+        text-align: center;
+        cursor: pointer;
+    }
+    
+    button:hover{
+        border: 5px solid rgb(5, 65, 61) ;
+        color:rgb(42, 187, 177));
+        background: #fff;
+        /* border: 5px solid rgb(5, 65, 61) ; */
+        font-size: 21px;
+    }
+}
