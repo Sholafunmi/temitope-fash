@@ -253,7 +253,7 @@ nav{
  font-family: 'Poiret One', cursive;
 }
 .about-content{
-    /* border: 2px solid #fff; */
+   
     margin-top: 2em;
     width: 80%;
     height: fit-content;
@@ -262,6 +262,10 @@ nav{
     /* gap: 2em; */
 
 }
+/* .aboutBorder{
+    border: 2px solid rgb(154, 245, 239);
+
+} */
 .top{
     /* border: 2px solid #fff; */
     display: flex;
@@ -290,7 +294,7 @@ nav{
     text-align: justify;
 }
 .about-text p{
-    font-size: 20px;
+    font-size: 18px;
 }
 .bottom{
     /* border: 2px solid #772727; */
@@ -303,7 +307,7 @@ nav{
     
 }
 .auto-biography p{
-    font-size: 20px;
+    font-size: 18px;
     /* text-align: left; */
     text-align: justify;
 }
@@ -901,7 +905,7 @@ footer .right a span{
         border-radius: 10%;
         /* width: 300px; */
         width: 95%;
-        height: 350px;
+        height: 250px;
         background-image: url(./images/DSC06028-trimed.jpg);
         background-position: top;
         background-size: cover;
@@ -915,7 +919,8 @@ footer .right a span{
         text-align: justify;
     }
     .about-text p{
-        font-size: 20px;
+        font-size: 17px;
+        margin-bottom: .5em;
     }
     .bottom{
         width: 100%;
@@ -930,7 +935,7 @@ footer .right a span{
     }
 
     .auto-biography p{
-        font-size: 20px;
+        font-size: 17px;
         justify-content: center;
         /* border: 2px solid red */
     }
