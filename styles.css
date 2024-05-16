@@ -13,6 +13,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 1;
 }
 nav .logo{
     text-decoration: none;
@@ -1391,3 +1392,63 @@ font-size: 23px;
 
 
     }
+
+
+
+
+
+    /* Fade In Animation */
+.fade-in {
+    animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+/* Slide Up Animation */
+.slide-up {
+    animation: slideUp 2s forwards;
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Slide Left Animation */
+.slide-left {
+    animation: slideLeft 2s forwards;
+}
+
+@keyframes slideLeft {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Slide Right Animation */
+.slide-right {
+    animation: slideRight 2s forwards;
+}
+
+@keyframes slideRight {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
