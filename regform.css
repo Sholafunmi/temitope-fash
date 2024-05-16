@@ -9,7 +9,13 @@
 
 #reg{
   
-    background: rgb(232, 237, 237);
+    /* background: rgb(232, 237, 237); */
+    background-image: linear-gradient(rgba(9, 163, 155, 0.5),rgba(0, 9, 9, 0.5)), url(./images/DSC06028-trimed.jpg);
+        background-repeat: no-repeat;
+        /* background-position: center; */
+        background-size: cover;
+        color: #FFF;
+
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -33,7 +39,8 @@
 
 
 form{
-border: 2px solid rgb(42, 187, 177);
+/* border: 2px solid rgb(42, 187, 177); */
+border: 2px solid rgb(4, 242, 226);
 height: fit-content;
 width: 30%;
 display: flex;
@@ -96,7 +103,17 @@ button:hover{
     #reg{
         /* border: 2px solid red; */
         padding: 1.5em 0;
-        background: rgb(232, 237, 237);
+        /* background: rgb(232, 237, 237); */
+
+        /* background-image: linear-gradient(rgba(7, 63, 60, 0.5),rgba(0, 9, 9, 0.5)), url(./images/DSC06028-trimed.jpg); */
+        background-image: linear-gradient(rgba(12, 164, 156, 0.5),rgba(0, 9, 9, 0.5)), url(./images/DSC06028-trimed.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        color: #FFF;
+
+
+
         width: 100%;
         min-height: 100vh;
         display: flex;
@@ -121,7 +138,9 @@ button:hover{
     
     
     form{
-    border: 2px solid rgb(42, 187, 177);
+    /* border: 2px solid rgb(42, 187, 177); */
+    border: 2px solid rgb(4, 242, 226);
+    /*  */
     height: fit-content;
     width: 90%;
     display: flex;
