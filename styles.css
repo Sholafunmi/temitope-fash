@@ -3,7 +3,28 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: tangerine-regular;
 }
+.tangerine-regular {
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .tangerine-bold {
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+  .jacquard-12-charted-regular {
+    font-family: "Jacquard 12 Charted", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
 
 nav{
     position: fixed;
@@ -189,10 +210,9 @@ nav{
     width: fit-content;
     height: fit-content;
     text-align: center;
-
 }
 .hero-text h1{
-    font-size: 70px;
+    font-size: 20px;
     font-weight: bolder;
    
     color: rgb(221, 212, 212);
@@ -829,7 +849,7 @@ footer .right a span{
         text-align: center;
     }
     .hero-text h1{
-        font-size: 40px;
+        font-size: 30px;
         font-weight: bolder;
       
         /* color:rgb(221, 212, 212); */

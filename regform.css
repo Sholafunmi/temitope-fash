@@ -9,9 +9,10 @@
 
 #reg{
   
-    /* background: rgb(232, 237, 237); */
-    background-image: linear-gradient(rgba(9, 163, 155, 0.5),rgba(0, 9, 9, 0.5)), url(./images/DSC06028-trimed.jpg);
-        background-repeat: no-repeat;
+   
+    background-image: linear-gradient(rgba(19, 8, 0,0.5),rgb(99, 46, 3, 0.5)), url(./images/DSC06028-trimed.jpg);
+       
+    background-repeat: no-repeat;
         /* background-position: center; */
         background-size: cover;
         color: #FFF;
@@ -39,8 +40,8 @@
 
 
 form{
-/* border: 2px solid rgb(42, 187, 177); */
-border: 2px solid rgb(4, 242, 226);
+
+border: 2px solid #a04b05;
 height: fit-content;
 width: 30%;
 display: flex;
@@ -76,9 +77,10 @@ input{
     height: 1.5em;
 }
 button{
-    border: 5px solid rgb(42, 187, 177);
-    color:#FFF ;
-    background:rgb(5, 65, 61) ;
+   
+
+    background: linear-gradient(#130800, #632e03);
+    color: rgb(235, 184, 184);
     
     padding: 3px 5px;
     border-radius: 15px;
@@ -91,10 +93,9 @@ button{
 }
 
 button:hover{
-    border: 5px solid rgb(5, 65, 61);
-    color:rgb(5, 65, 61);
-    background: rgb(42, 187, 177);
-    border: 5px solid rgb(5, 65, 61);
+    border: 5px solid #632e03;
+    color:#632e03;
+    background: rgb(235, 184, 184);
     font-size: 21px;
 }
 
@@ -104,9 +105,9 @@ button:hover{
         /* border: 2px solid red; */
         padding: 1.5em 0;
         /* background: rgb(232, 237, 237); */
-
-        /* background-image: linear-gradient(rgba(7, 63, 60, 0.5),rgba(0, 9, 9, 0.5)), url(./images/DSC06028-trimed.jpg); */
-        background-image: linear-gradient(rgba(12, 164, 156, 0.5),rgba(0, 9, 9, 0.5)), url(./images/DSC06028-trimed.jpg);
+         background-image: linear-gradient(rgba(19, 8, 0,0.5),rgb(99, 46, 3, 0.5)), url(./images/DSC06028-trimed.jpg);
+       
+        
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -138,9 +139,7 @@ button:hover{
     
     
     form{
-    /* border: 2px solid rgb(42, 187, 177); */
-    border: 2px solid rgb(4, 242, 226);
-    /*  */
+    border: 2px solid #a04b05;
     height: fit-content;
     width: 90%;
     display: flex;
@@ -176,9 +175,8 @@ button:hover{
         height: 1.5em;
     }
     button{
-        border: 5px solid rgb(42, 187, 177);
-        color:#FFF ;
-        background: rgb(5, 65, 61) ;
+        background: linear-gradient(#130800, #632e03);
+        color: rgb(235, 184, 184);
         padding: 3px 5px;
         border-radius: 15px;
         font-size: 20px;
@@ -189,10 +187,9 @@ button:hover{
     }
     
     button:hover{
-        border: 5px solid rgb(5, 65, 61) ;
-        color:rgb(42, 187, 177));
-        background: #fff;
-        /* border: 5px solid rgb(5, 65, 61) ; */
+        border: 5px solid #632e03;
+        color:#632e03;
+        background: rgb(235, 184, 184);
         font-size: 21px;
     }
 }
