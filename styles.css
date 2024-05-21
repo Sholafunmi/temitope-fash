@@ -8,6 +8,7 @@ body{
 nav{
     position: fixed;
     background-color: black;
+    /* color:rgb(221, 212, 212) ; */
     width: 100%;
     height: fit-content;
     display: flex;
@@ -17,12 +18,12 @@ nav{
 }
 nav .logo{
     text-decoration: none;
-    color: rgb(154, 245, 239);
+    /* color:rgb(221, 212, 212) ; */
+    color: rgb(235, 184, 184);
     font-family: 'Poiret One', cursive;
     font-size: 25px;
 }
 .menu-bar{
-    /* border: 2px solid red; */
     display: flex;
     gap: 2em;
     width: fit-content;
@@ -33,7 +34,8 @@ nav .logo{
 }
 .menu-items a{
  text-decoration: none;
-   color: rgb(154, 245, 239);
+   /* color: rgb(221, 212, 212); */
+   color: rgb(235, 184, 184);
    font-size: 18px;
 }
 
@@ -45,7 +47,7 @@ nav .logo{
 .layer1, .layer2, .layer3{
     width: 100%;
     height: 3px;
-    background: rgb(154, 245, 239);
+    background: rgb(235, 184, 184);
     margin: 4px;
 
 }
@@ -68,7 +70,7 @@ nav .logo{
     z-index: 10;
 }
 .close-menu-bar{
-    color: rgb(154, 245, 239);
+    color: rgb(221, 212, 212);
     font-size: 50px;
     margin-top: 1em;
     margin-left: .5em;
@@ -86,17 +88,17 @@ nav .logo{
     align-items: center;
 }
 .side-menu-items{
-color: rgb(154, 245, 239);
+color: rgb(221, 212, 212);
 font-size: 25px;
 font-family: 'Poiret One', cursive;
 list-style: none;
 }
 .side-menu-items li{
- color: rgb(154, 245, 239);
+ color: rgb(221, 212, 212);
 }
 .side-menu-items a{
 text-decoration: none;
-color: rgb(154, 245, 239);
+color: rgb(221, 212, 212);
 }
 .side-menu-items a:hover{
     color: rgb(211, 209, 200);
@@ -106,8 +108,8 @@ color: rgb(154, 245, 239);
         display: none;
     }
     #myBtn{
-        background-color: rgb(12,75,71);
-        color:rgb(238,201,7)  ;
+        background: linear-gradient(#130800, #632e03);
+        color: rgb(235, 184, 184);
         font-size: 18px;
         font-weight: bold;
         padding: 6px 8px;
@@ -129,7 +131,8 @@ header{
  width: 100%;
  height: 100vh;
  align-items: center;
- background-color: black;
+ background: linear-gradient(#130800, #632e03);
+
   overflow: hidden;
 }
 .header-content{
@@ -164,8 +167,10 @@ nav{
  flex-direction: column;
  align-items: center;
  justify-content: center;
- background-image: url(./images/rbg1-trimmed.png);
- /* background-image: url(./images/rbg6.png); */
+ background-image: url(./images/rbg2.png);
+
+
+ 
  background-position:right;
  background-size: contain;
  background-repeat: no-repeat;
@@ -189,22 +194,22 @@ nav{
 .hero-text h1{
     font-size: 70px;
     font-weight: bolder;
-    /* color: rgb(238,201,7); */
-    color: rgb(154, 245, 239);
+   
+    color: rgb(221, 212, 212);
     font-family: 'Poiret One', cursive;
 }
 .hero-text p{
     font-size: 25px;
     /* color: rgb(238,201,7); */
-    color: rgb(154, 245, 239);
+    color: rgb(221, 212, 212);
     font-family: 'Poiret One', cursive;
 }
 .hero-text p span{
-    color: rgb(154, 245, 239);
+    color: rgb(221, 212, 212);
 }
 /* SOCIALS  */
 .socials{
- border: 0.5px solid rgb(238,201,7);
+ border: 0.5px solid rgb(221, 212, 212);
  padding: 1%;
  position: fixed;
  /* position: absolute; */
@@ -223,7 +228,7 @@ nav{
     text-decoration: none;  
 }
 .social-links a ion-icon {
-    color: rgb(154, 245, 239);
+    color: rgb(221, 212, 212);
     transition: all 0.3s ease;
 }
 .social-links a ion-icon:hover{
@@ -240,9 +245,8 @@ nav{
 .about{
     width: 100%;
     min-height: 100vh;
-    /* background-color: rgb(12,75,71); */
-    background-color: #fff;
-    color: black;
+    color: rgb(221, 212, 212) ;
+    background: linear-gradient(#130800, #b45304);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -262,12 +266,8 @@ nav{
     /* gap: 2em; */
 
 }
-/* .aboutBorder{
-    border: 2px solid rgb(154, 245, 239);
 
-} */
 .top{
-    /* border: 2px solid #fff; */
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -277,7 +277,7 @@ nav{
     justify-content: center;
 }
 .about-img{
-    border: 5px solid rgb(154, 245, 239);
+    border: 5px solid #000;
     border-radius: 10%;
     width: 300px;
     height: 350px;
@@ -287,28 +287,24 @@ nav{
     background-repeat: no-repeat;
 }
 .about-text{
-    /* border: 2px solid #772727; */
     width: 100%;
     height: fit-content;
-    color: black;
     text-align: justify;
 }
+
+ 
 .about-text p{
     font-size: 18px;
 }
 .bottom{
-    /* border: 2px solid #772727; */
     width: 100%;
     height: fit-content;
      align-items: center;
      justify-content: center;
 }
-.auto-biography{
-    
-}
+
 .auto-biography p{
     font-size: 18px;
-    /* text-align: left; */
     text-align: justify;
 }
 
@@ -317,7 +313,8 @@ nav{
     /* border: 2px solid; */
     height: fit-content;
     width: 100%;
-    background-color: rgb(12,75,71);
+    /* background-color: rgb(12,75,71); */
+    background: linear-gradient(#130800, #632e03);
     color:#e3e9e3;
     display: flex;
     flex-direction: column;
@@ -365,7 +362,6 @@ nav{
 
 }
 .online{
-    /* border: 2px solid rgb(238,201,7); */
     padding: 2%; 
     width: 500px;
     min-height: 300px;
@@ -383,18 +379,18 @@ nav{
   /* align-self: self-end; */
 }
 .online, .offline, .cocktails-and-bouquets, .wedding-receptions{
-    background-color: rgb(230, 228, 221);
-    color: black;
+    /* background-color: rgb(230, 228, 221); */
+    background-color:#843a05;
+    color: #fff;
+    justify-content: center;
 }
-.online:hover, .offline:hover, .cocktails-and-bouquets:hover, .wedding-receptions:hover{
+/* .online:hover, .offline:hover, .cocktails-and-bouquets:hover, .wedding-receptions:hover{
    box-shadow: 4px 8px 0px rgb(238,201,7);
    transform: scale(1.1);
-   
-}
+} */
   
 .online p, .offline p, coperate-events p, .wedding-receptions p, .cocktails-and-bouquets p{
     font-size: 20px;
-  
 }
 .offline{
     /* border: 2px solid rgb(238,201,7); */
@@ -409,8 +405,8 @@ nav{
 
 }
 .bookMe{
-background-color: rgb(12,75,71);
- color: rgb(238,201,7);
+    background: linear-gradient(#130800, #632e03);
+ color: rgb(235, 184, 184);
  padding: 15px 25px;
  border-radius: 8px;
  width: fit-content;
@@ -477,8 +473,11 @@ background-color: rgb(12,75,71);
     padding: 3em 0 3em 0;
     width: 100%;
     min-height: 100vh;
-    background-color: #e3e9e3;
-    color: black;
+    /* background-color: #e3e9e3;
+    color: black; */
+
+    color: rgb(221, 212, 212) ;
+    background: linear-gradient(#2d1602, #130800);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -537,13 +536,21 @@ background-color: rgb(12,75,71);
 }
 .music p{
     font-size: 18px;
-    color: black;
+    color: rgb(221, 212, 212) ;
     font-weight: 600;
+}
+.music a{
+    color: rgb(235, 214, 214) ;
 }
 
 /* EVENTS  */
 .events{
     /* background-color: #eaf1ea; */
+    color: rgb(221, 212, 212) ;
+    background: linear-gradient(#2d1602, #130800);
+   
+
+    
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -627,7 +634,7 @@ background-position: top;
  .live-performances{
     padding-top: 3em;
     padding-bottom: 5em;
-    background-color: rgb(10, 27, 27);
+    background: linear-gradient(#1c0d01, #2b1402);
     width: 100%;
     height: fit-content;
     display: flex;
@@ -688,7 +695,7 @@ font-family: 'Poiret One', cursive;
 
 .left .logo a{
     text-decoration: none;
-    color: rgb(154, 245, 239);
+    color: rgb(235, 184, 184);
     font-size: 25px;
 }
 .left .logo span{
@@ -723,7 +730,7 @@ footer .right a span{
        text-decoration: none;  
    }
    .footer-social-links a ion-icon {
-       color: rgb(154, 245, 239);
+       color: rgb(235, 184, 184);
        transition: all 0.3s ease;
        font-size: 18px;
        font-weight: lighter;
@@ -768,7 +775,7 @@ footer .right a span{
      min-height: 100vh;
      align-items: center;
     overflow: hidden;
-    background-color: black;
+    background: linear-gradient(#130800, #632e03);
 }
     .header-content{
         display: flex;
@@ -786,7 +793,9 @@ footer .right a span{
          display: flex;
          align-items: center;
          z-index: 1;
+         
     }
+    
      
     
     /* HERO SECTION STARTS HERE  */
@@ -822,16 +831,19 @@ footer .right a span{
     .hero-text h1{
         font-size: 40px;
         font-weight: bolder;
-        color: rgb(154, 245, 239);
-        font-family: 'Poiret One', cursive;
+      
+        /* color:rgb(221, 212, 212); */
+        color: rgb(235, 184, 184);
+               font-family: 'Poiret One', cursive;
     }
     .hero-text p{
         font-size: 18px;
-        color: rgb(154, 245, 239);
+        color:rgb(221, 212, 212);
         font-family: 'Poiret One', cursive;
     }
+   
     .hero-text p span{
-        color: rgb(154, 245, 239);
+        color:rgb(221, 212, 212);
     }
    
     .socials{
@@ -850,7 +862,7 @@ footer .right a span{
         text-decoration: none;  
     }
     .social-links a ion-icon {
-        color: rgb(154, 245, 239);
+        color:rgb(221, 212, 212);
         transition: all 0.3s ease;
         font-size: 18px;
         font-weight: lighter;
@@ -870,9 +882,12 @@ footer .right a span{
         width: 100%;
         /* min-height: 100vh; */
         height: fit-content;
-        /* background-color: rgb(12,75,71); */
-        background-color: #fff;
-        color: black;
+        background: linear-gradient(#130800, #512603);
+        color: rgb(221, 212, 212);
+/*         
+        background: linear-gradient(#130800, #b45304);
+        color: rgb(221, 212, 212); */
+      
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -901,7 +916,7 @@ footer .right a span{
         justify-content: center;
     }
     .about-img{
-        border: 5px solid rgb(74, 192, 184);
+        border: 5px solid #000;
         border-radius: 10%;
         /* width: 300px; */
         width: 95%;
@@ -914,7 +929,6 @@ footer .right a span{
     .about-text{
         width: 100%;
         height: fit-content;
-        color: black;
         justify-content: center;
         text-align: justify;
     }
@@ -944,14 +958,15 @@ footer .right a span{
     .services{
         height: fit-content;
         width: 100%;
-        background-color: rgb(12,75,71);
+        background: linear-gradient(#130800, #642e02);
         color:#e3e9e3;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     .services-content{
-        margin-top: 2em;
+        margin-top: 4em;
         margin-bottom: 3em;
          width: 90%;
         height: fit-content;
@@ -1003,26 +1018,31 @@ footer .right a span{
         gap: 1em;
     }
     .online .bookMe{
-      /* align-self: self-end; */
+      
     }
     .online, .offline, .cocktails-and-bouquets, .wedding-receptions{
-        background-color: rgb(230, 228, 221);
-        color: black;
+        background-color:#4e2304;
+        /* border: 1px solid #e3e9e3; */
+        box-shadow: 2px 2px 30px 2px  rgb(165, 153, 153);
+
+        color: #fff;
         padding: 2em 2em;
     }
-    .online:hover, .offline:hover, .cocktails-and-bouquets:hover, .wedding-receptions:hover{
+
+  
+    /* .online:hover, .offline:hover, .cocktails-and-bouquets:hover, .wedding-receptions:hover{
        box-shadow: 4px 8px 0px rgb(238,201,7);
        transform: scale(1.1);
        
-    }
+    } */
       
     .online p, .offline p, coperate-events p{
         font-size: 20px;
-        /* text-align: left; */
+      
       
     }
     .offline{
-        /* border: 2px solid rgb(238,201,7); */
+       
         width: 95%;
         min-height: fit-content;
         border-radius: 10px;
@@ -1036,8 +1056,8 @@ footer .right a span{
     
     }
     .bookMe{
-    background-color: rgb(12,75,71);
-     color: rgb(238,201,7);
+        background: linear-gradient(#130800, #632e03);
+        color: rgb(235, 184, 184);
      padding: 15px 25px;
      border-radius: 8px;
      width: fit-content;
@@ -1159,8 +1179,8 @@ font-size: 23px;
     flex-direction: column;
     align-items: center;
      padding: 1em 0;
-     background-color: #e6ebe6;
-     /* color: #e3e9e3; */
+     background: linear-gradient(#130800, #281302);
+     color: rgb(221, 212, 212);
 }
 .music{
     width: 90%;
@@ -1171,11 +1191,10 @@ font-size: 23px;
 }
 .music p{
     font-size: 18px;
-    color: black;
     font-weight: 600;
 }
 .music a{
-    color: rgb(12,75,71);
+    color: rgb(221, 212, 212);
     font-size: 20px;
 }
 
@@ -1185,16 +1204,14 @@ font-size: 23px;
 
     /* EVENTS  */
     .events{
-        /* background-color: #ebf1eb; */
+        background: linear-gradient(#130800, #2c1604);
+        color: rgb(221, 212, 212);
         width: 100%;
-        /* min-height: 100vh; */
         height: fit-content;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: 4em;
-        padding-bottom: 2em;
-        
+        padding-bottom: 6em;
     }
     .events-contents{
         width: 95%;
@@ -1224,7 +1241,7 @@ font-size: 23px;
     
     }
     .event1, .event2, .appraisalSound{
-        background-color: rgb(211, 209, 200);
+        background-color: rgb(255, 255, 254);
         color:black;
         border-radius: 10px;
         overflow: hidden;
@@ -1283,7 +1300,7 @@ font-size: 23px;
     .live-performances{
         padding-top: 3em;
         padding-bottom: 5em;
-        background-color: rgb(10, 27, 27);
+        background: linear-gradient(#130800, #361901);
         width: 100%;
         height: fit-content;
         display: flex;
@@ -1323,9 +1340,7 @@ font-size: 23px;
     
     /* FOOTER STARTS HERE  */
     footer{
-    /* border: 2px solid red; */
-    background-color: black;
-    /* min-height: 15vh; */
+    background-color: black;  
     height: fit-content;
     width: 100%;
     display: flex;
@@ -1351,9 +1366,11 @@ font-size: 23px;
     }
     .left .logo a{
         text-decoration: none;
-        color: rgb(154, 245, 239);
+        color: rgb(235, 184, 184);
         font-size: 20px;
     }
+    /* background: linear-gradient(#130800, #281302);
+     color: rgb(221, 212, 212); */
         
     .left .logo span{
         font-size: 15px;
@@ -1381,7 +1398,7 @@ font-size: 23px;
            text-decoration: none;  
        }
        .footer-social-links a ion-icon {
-           color: rgb(154, 245, 239);
+        color: rgb(235, 184, 184);
            transition: all 0.3s ease;
            font-size: 18px;
            font-weight: lighter;
