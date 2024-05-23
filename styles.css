@@ -3,7 +3,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: tangerine-regular;
+    /* font-family: tangerine-regular; */
 }
 .tangerine-regular {
     font-family: "Tangerine", cursive;
@@ -192,7 +192,7 @@ nav{
 
 
  
- background-position:right;
+ background-position:left;
  background-size: contain;
  background-repeat: no-repeat;
  
@@ -202,24 +202,25 @@ nav{
     width: 90%;
     height: fit-content;
     display: flex;
-   
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    justify-content: right;
 
 }
 .hero-text{
     width: fit-content;
     height: fit-content;
     text-align: center;
+    
 }
 .hero-text h1{
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bolder;
    
     color: rgb(221, 212, 212);
     font-family: 'Poiret One', cursive;
 }
 .hero-text p{
-    font-size: 25px;
+    font-size: 20px;
     /* color: rgb(238,201,7); */
     color: rgb(221, 212, 212);
     font-family: 'Poiret One', cursive;
@@ -273,8 +274,11 @@ nav{
     padding-bottom: 2em;
 }
 .about-intro{
- margin-top: 1.5em;
+ margin-top: 1.9em;
  font-family: 'Poiret One', cursive;
+
+ text-shadow: 2px 2px 3px  #f8f6f5;
+     color: rgb(218, 125, 125);
 }
 .about-content{
    
@@ -341,7 +345,7 @@ nav{
     align-items: center;
 }
 .services-content{
-    margin-top: 2em;
+    margin-top: 3em;
     margin-bottom: 3em;
      width: 80%;
     height: fit-content;
@@ -353,6 +357,8 @@ nav{
 .services-intro{
    margin-bottom: 1em;
    font-family: 'Poiret One', cursive;
+   text-shadow: 2px 2px 3px  #f8f6f5;
+     color: rgb(218, 125, 125);
 }
 
 .service1{
@@ -588,8 +594,9 @@ nav{
 }
 .events-contents h1{
   margin-bottom: 2em;
-  /* margin-top: 1em; */
   font-family: 'Poiret One', cursive;
+  text-shadow: 2px 2px 3px  #f8f6f5;
+     color: rgb(218, 125, 125);
 }
 
 .my-event{
@@ -859,7 +866,8 @@ footer .right a span{
     .hero-text p{
         font-size: 18px;
         color:rgb(221, 212, 212);
-        font-family: 'Poiret One', cursive;
+        /* font-family: 'Poiret One', cursive; */
+        
     }
    
     .hero-text p span{
@@ -914,8 +922,10 @@ footer .right a span{
         padding-bottom: 2em;
     }
     .about-intro{
-     margin-top: 1.5em;
+     margin-top: 1.9em;
      font-family: 'Poiret One', cursive;
+     text-shadow: 2px 2px 3px  #f8f6f5;
+     color: rgb(218, 125, 125);
     }
     .about-content{
         margin-top: 2em;
@@ -923,7 +933,7 @@ footer .right a span{
         height: fit-content;
         display: flex;
         flex-direction: column;
-        /* gap: 2em; */
+        font-family: 'Poiret One', cursive;
        
     }
     .top{
@@ -994,10 +1004,15 @@ footer .right a span{
         flex-direction: column;
         align-items: center;
         gap: 2em;
+        font-family: 'Poiret One', cursive;
     }
     .services-intro{
-       /* margin-bottom: 1em; */
        font-family: 'Poiret One', cursive;
+     text-shadow: 2px 2px 3px  #f8f6f5;
+     color: rgb(218, 125, 125);
+    }
+    .service-introText{
+        font-size: 17px;
     }
     
     .service1{
@@ -1244,6 +1259,8 @@ font-size: 23px;
       margin-bottom: 1em;
       margin-top: 2em;
       font-family: 'Poiret One', cursive;
+      text-shadow: 2px 2px 3px  #f8f6f5;
+      color: rgb(218, 125, 125);
     }
     .events-contents h3{
         margin-bottom: .5em;
