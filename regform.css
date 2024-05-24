@@ -2,9 +2,15 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* font-family: 'Lumanosimo', cursive; */
-    /* font-family: 'Open Sans', sans-serif; */
+   
+   
 }
+.comforter-brush-regular{
+    font-family: "Comforter Brush", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 
 
 #reg{
@@ -28,19 +34,21 @@
 
 
 }
+.adun{
+    text-transform: lowercase;
+}
 .regIntro{
     text-align: center;
     /* margin-bottom: 2em; */
 }
 .regIntro p{
-    font-size: 20px;
+    /* font-size: 20px; */
     padding-top: 2em;
     padding-bottom: 1em;
 }
 
 
 form{
-
 border: 2px solid #a04b05;
 height: fit-content;
 width: 30%;
@@ -191,5 +199,16 @@ button:hover{
         color:#632e03;
         background: rgb(235, 184, 184);
         font-size: 21px;
+    }
+
+    .adun{
+        font-size: 40px;
+        margin-top: -1em;
+    }
+    .welcome{
+        margin-top: 3em;
+    }
+    .regst{
+        /* font-size: 200px; */
     }
 }
