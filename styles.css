@@ -1350,6 +1350,7 @@ font-size: 23px;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        text-align: center;
     }
     .live-performances h1{
         font-weight: bold;
@@ -1363,14 +1364,13 @@ font-size: 23px;
         height: fit-content;
         display: flex;
         flex-direction: column;
-      
-        /* align-items: center; */
+        align-items: center;
          gap: 2em;
          justify-content: center;
+        
     }
     .videos{
         justify-content: center;
-        
         align-items: center;
         width: 90%;
         height: 250px;
